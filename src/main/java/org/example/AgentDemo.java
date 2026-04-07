@@ -23,7 +23,7 @@ public class AgentDemo {
         // App ID 从环境变量获取，或者直接写在这里
         String appId = System.getenv("FRIDAY_APP_ID");
         if (appId == null || appId.isEmpty()) {
-            appId = "1894654060091985986";  // 替换为你的 App ID
+            appId = "";  // 替换为你的 App ID
         }
         String apiUrl = "https://aigc.sankuai.com/v1/openai/native/chat/completions";
         String model = "gpt-4o-mini";  // 推荐使用性价比高的模型
